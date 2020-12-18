@@ -1,0 +1,50 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://terrain/BrickWallTop.gd" type="Script" id=1]
+[ext_resource path="res://images/brick_wall_top.png" type="Texture" id=2]
+[ext_resource path="res://images/brick_wall_top_anim/brick_wall_top_anim0003.png" type="Texture" id=3]
+[ext_resource path="res://images/brick_wall_top_anim/brick_wall_top_anim0002.png" type="Texture" id=4]
+[ext_resource path="res://images/brick_wall_top_anim/brick_wall_top_anim0001.png" type="Texture" id=5]
+[ext_resource path="res://images/brick_wall_top_anim/brick_wall_top_anim0000.png" type="Texture" id=6]
+[ext_resource path="res://sounds/brickwall_respawn.wav" type="AudioStream" id=7]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 12, 16 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 2 ) ],
+"loop": false,
+"name": "idle",
+"speed": 1.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "respawn",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "breakup",
+"speed": 20.0
+} ]
+
+[node name="BrickWallTop" type="StaticBody2D"]
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 12, 16 )
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 12, 16 )
+frames = SubResource( 2 )
+animation = "idle"
+
+[node name="RespawnTimer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+
+[node name="RespawnPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+volume_db = -10.0

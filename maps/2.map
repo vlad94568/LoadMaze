@@ -1,0 +1,46 @@
+LAND game Map 50 x 16
+Stage #2
+CRC-32 F9A0E222
+
+{
+c<>ccccccccccccccccccccccccccccccccccccccccccccccc
+C[]  $   E   $$      $$         %$ []%%$ $ $ %%[]C
+C[]############      ^^^^^^##^^^^^^[]%%xxxxxx%%[]C
+C[]  %123  H     $    $      %12341[]1234123412[]C
+C[]  %%%%[]xx[]x^^^xxxxxxxx[]^^^^^^[]%%%%$$%%%%[]C
+C[]  %%$ %%  []    $$      []      []   $   $  []C
+C[]  %%xx[]  []  $    $    []  $$  []^^xxxxxxxx[]C
+C[]  %%$ %%  []  xxxxxx[]  []  ^^^^^^  %%$ $ $ %%C
+C  ^^%%xx[]  []  %% $$ %%  [] e $$     %%xxxxxx[]C
+C$   %%$ %%  []  %%xxxx[]  []^^^^^     %%$ $ $ %%C
+C  $ %%xx[]  []  %% $$ %%$ []    $$    %%xxxxxx[]C
+C  ^^^^^^^^  []  %%xxxx[]^^[]    ^^^^^^[]$ $ $ %%C
+C  p         []^^^^^^^^^^$ []   E $$   %%xxxxxx[]C
+C[]^^^^^^^^^^[]          ^^[]##^^^^^^^^^^^^^^^^^^C
+C[]12341234$$[]123412341234##CC123412341234123412C
+C##########################CCCC##################C
+}
+
+Legend:
+=====================
+# = Solid Wall
+p - Player.
+E = Enemy #1
+e = Enemy #2
+C = Solid Block Center
+c = Solid Block Top
+% = Brick Wall
+$ = Chest
+b = Bulb
+1 = Biomass 1
+2 = Biomass 2
+3 = Biomass 3
+4 = Biomass 4
+^ = Floor
+[ = Ladder Left
+] = Ladder Right
+< = Exit Door Left
+> = Exit Door Right
+x = Brick Wall With Top
+~ = Brick Wall Short
+H = Live Heart

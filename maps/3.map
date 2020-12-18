@@ -1,0 +1,41 @@
+LAND game Map 50 x 16
+Stage #3
+CRC-32 8E1C6EDA
+
+{
+c<>cccccccccccc  ccccccccccccc  cccccccccccccccccc
+C[]$      $$     $   zz               z[][]  $$  C
+C  ^^[]^^^^^^^^^^^^[]  $ []  $  $  $  $  []^^^^[]C
+C  z []  $    $  z []^^^^  ^^^^^^^^^^^^^^[]zz$$[]C
+Czz  []^^^^^^[]    []    zz       $    $     [] $C
+C      $ $ $ []^^[]  [] $  $   []^^^^^^^^^^^^  []C
+C$ []%%%%%%%%  zz[]  z ^^^^^^[]  z   zz    z  []zC
+C[] z    $   $   []     $  $ []    $    $    []  C
+C[]  []^^^^^^^^^^  ^^^[]^^^^^  ^^^^^^[]^^^^[]   zC
+C[]  []  $ $ $       []      $$    $     $ []  z C
+C  []  ^^^^^^^^[] $ [] $ []^^^^^^[]^^^^^^^^  []  C
+Czz[]            ^^[] ^^^[]           $  $   []  C
+C  [] $ $     $ $  [] $$ [] $    $ []%%%%%%[]    C
+C[]^^^^^^^^^^^^^^^^  ^^^^  ^^^^^^^^          []$$C
+C[]12341234123412341234123412341234123412341234##C
+C##############################################CCC
+}
+
+Legend:
+=====================
+# = Solid Wall
+C = Solid Block Center
+c = Solid Block Top
+% = Brick Wall
+$ = Chest
+1 = Biomass 1
+2 = Biomass 2
+3 = Biomass 3
+4 = Biomass 4
+^ = Floor
+[ = Ladder Left
+] = Ladder Right
+< = Exit Door Left
+> = Exit Door Right
+x = Brick Wall With Top
+z = Chest With Base

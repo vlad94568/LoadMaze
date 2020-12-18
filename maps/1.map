@@ -1,0 +1,46 @@
+LAND game Map 50 x 16
+Stage #1
+CRC-32 8EFE016A
+
+{
+c<>ccccccccccccccccccccccccccccccccccccccccccccccc
+C[]   $%%  %%$   CC  $       CC      []%$%$%$%$%$C
+C[]x$$x%%[]%%  $     xx[] p$   E $$  []########[]C
+Cxx%%[]%%[]%%xxxx[] $ $xxxx^^[]^^^^^^[]    $  $[]C
+C%%  %123[]  $$  []%%   $$   []  $   []$ []####[]C
+C%%[]%xxxxxxxxxxx[]%%xxxxxxxx[]xxxxxx[]xx  $ CC[]C
+C[][]%%  $$    $ e H $$    $ [] $   %[]%%xxxx%%[]C
+C[]xx%%[]xx[]^^xxxxxxxxxx[]xxxxxx[]$12341    $ []C
+C[]%123[]%%[]    $$   $  []%%[]$ []xx$$xx[]#xxx[]C
+C[]%xxxxx%%[]xxxxxxxxxx[]xx%%[]xxxx%%xx%%[]C$ $[]C
+C[]$$  %123[]%%  $   $$    $ []%$%$%$%$%%[]C $ []C
+Cxx^^[] ^^^xx%%[]xxxxxxxx[]xxxx%x%x%x%x%%[]C123[]C
+C $$ []  $   $ []%%$$1234[]%1234123  %$$%[]%%%%[]C
+Cxxxx[]xxxx[]xxxx%%xxxxxx[]%xxx$$xx[]%xx%[]123$[]C
+Cp $$  $   []   $      $ []#     $ [] $  []xxxxxxC
+C##########################C#####################C
+}
+
+Legend:
+=====================
+ # = Solid Wall
+ p - Player.
+ E = Enemy #1
+ e = Enemy #2
+ C = Solid Block Center
+ c = Solid Block Top
+ % = Brick Wall
+ $ = Chest
+ b = Bulb
+ 1 = Biomass 1
+ 2 = Biomass 2
+ 3 = Biomass 3
+ 4 = Biomass 4
+ ^ = Floor
+ [ = Ladder Left
+ ] = Ladder Right
+ < = Exit Door Left
+ > = Exit Door Right
+ x = Brick Wall With Top
+ ~ = Brick Wall Short
+ H = Live Heart
